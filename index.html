@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="todo.css">
+    <script src="todo.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="main">
+        <div class="heading">
+            <span>OASIS TODO LIST MAKER</span>
+            <img src="todo.png" alt="">
+        </div>
+        <div class="inpt">
+            <label for="title">Title</label>
+            <input type="text" name="title" id="title">
+            <label for="desc">Description</label>
+            <textarea name="desc" id="desc" cols="30" rows="10"></textarea>
+            <button class="Append" onclick="appnd()">Append</button>
+        </div>
+        <div class="otpt">
+            <div class="pend">Pending Tasks</div>
+            <table id="otpttable">
+                <thead>
+                    <tr>
+                        <th>Title</th>
+                        <th>Description</th>
+                        <th>Complete</th>
+                        <th>Delete</th>
+                    </tr>
+                </thead>
+                <tbody id="pendingdata"></tbody>
+            </table>
+            <div id="noentry"></div>
+            <div id="note">Note: For Editing Tasks, directly edit in table and click <button onclick="setStorage()">Save Changes</button></div>
+            <br>
+            <div class="pend">Completed Tasks</div>
+            <table id="otpttable">
+                <thead>
+                    <tr>
+                        <th>Title</th>
+                        <th>Description</th>
+                        <th>Delete</th>
+                    </tr>
+                </thead>
+                <tbody id="completedata"></tbody>
+            </table>
+            <div id="noentry2"></div>
+        </div>
+    </div>
+    <footer class="footer">
+        <p>&copy; 2024 Oasis Todo List Maker (Prashant Shinde)</p>
+    </footer>
+</body>
+
+</html>

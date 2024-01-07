@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Doodle+Shadow&family=Teko:wght@300;400;600;700&display=swap');
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    margin: 0;
+}
+.main{
+    min-height: calc(100vh - 132px);
+    padding: 20px;
+}
+.heading{
+    text-align: center;
+    font-weight: bolder;
+    font-size: min(5vw, 50px);
+    font-family: 'Rubik Doodle Shadow';
+}
+.heading span{
+    filter: drop-shadow(1px 1px 1px rgb(255, 68, 0));
+}
+.heading img{
+    height:min(5vw, 50px);
+}
+.inpt {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+input {
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+.Append {
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    border-radius: 2px;
+    margin-top: 10px;
+}
+
+.otpt {
+    margin-top: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+th:first-child, td:first-child{
+    width:30%;
+}
+th {
+    background-color: #f2f2f2;
+}
+
+button {
+    padding: 5px 10px;
+    font-size: 14px;
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 2px;
+}
+.footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #353535;
+    color: white;
+    position:relative;
+    width: 100%;
+    
+}
+.pend{
+    text-align: center;
+    font-weight: bold;
+    font-size: 24px;
+    font-family: Teko;
+}
+#noentry, #noentry2{
+    text-align: center;
+    border: 1px solid lightgrey;
+    margin-bottom: 10px;
+}
